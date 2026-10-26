@@ -1,16 +1,15 @@
 export const IMAGES = {
-  studioHero: "/images/studio-hero.jpg",
-  harbourHotel: "/images/harbour-hotel.jpg",
-  udaipurHaveli: "/images/udaipur-haveli.jpg",
-  bengaluruAtelier: "/images/bengaluru-atelier.jpg",
-  mumbaiApartment: "/images/mumbai-apartment.jpg",
-  nilgirisStudy: "/images/nilgiris-study.jpg",
-  alibaugVerandah: "/images/alibaug-verandah.jpg",
-  materialDetail: "/images/material-detail.jpg",
-  foundersPortrait: "/images/founders-portrait.jpg",
-  journalLight: "/images/journal-light.jpg"
+  studioHero: `${import.meta.env.BASE_URL}images/studio-hero.jpg`,
+  harbourHotel: `${import.meta.env.BASE_URL}images/harbour-hotel.jpg`,
+  udaipurHaveli: `${import.meta.env.BASE_URL}images/udaipur-haveli.jpg`,
+  bengaluruAtelier: `${import.meta.env.BASE_URL}images/bengaluru-atelier.jpg`,
+  mumbaiApartment: `${import.meta.env.BASE_URL}images/mumbai-apartment.jpg`,
+  nilgirisStudy: `${import.meta.env.BASE_URL}images/nilgiris-study.jpg`,
+  alibaugVerandah: `${import.meta.env.BASE_URL}images/alibaug-verandah.jpg`,
+  materialDetail: `${import.meta.env.BASE_URL}images/material-detail.jpg`,
+  foundersPortrait: `${import.meta.env.BASE_URL}images/founders-portrait.jpg`,
+  journalLight: `${import.meta.env.BASE_URL}images/journal-light.jpg`
 };
-
 // ---------------------------------------------------------------------------
 // SIX-COLOUR TOKEN SYSTEM ("Six colour tokens in one file and no accent:
 // the photography supplies the colour. Change a token and the whole site follows.")
